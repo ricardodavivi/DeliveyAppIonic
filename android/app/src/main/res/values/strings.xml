@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DeliveryAppIonic</string>
+    <string name="title_activity_main">DeliveryAppIonic</string>
+    <string name="package_name">rc.lyra.nascimento</string>
+    <string name="custom_url_scheme">rc.lyra.nascimento</string>
+</resources>

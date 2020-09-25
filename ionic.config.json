@@ -1,5 +1,7 @@
 {
   "name": "DeliveryAppIonic",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

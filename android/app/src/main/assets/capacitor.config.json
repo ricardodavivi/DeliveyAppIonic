@@ -1,0 +1,13 @@
+{
+  "appId": "rc.lyra.nascimento",
+  "appName": "DeliveryAppIonic",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

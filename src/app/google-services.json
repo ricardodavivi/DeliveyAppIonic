@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1058782582161",
+    "firebase_url": "https://delivery-28832.firebaseio.com",
+    "project_id": "delivery-28832",
+    "storage_bucket": "delivery-28832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058782582161:android:1b4f77a1d8d2b260873630",
+        "android_client_info": {
+          "package_name": "rc.lyra.nascimento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058782582161-79s5a6e9qs0bcfkg0geogf3hs220ef6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP7UXe3LcUKLvJs7N6UC70x9bCMfHUIBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058782582161-79s5a6e9qs0bcfkg0geogf3hs220ef6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
