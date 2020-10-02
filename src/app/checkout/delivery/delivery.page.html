@@ -35,7 +35,7 @@
     <ion-radio-group [(ngModel)]="deliveryModel.addressId" (ionChange)="onAdressChange()">
       <ion-item lines="full" *ngFor="let address of addresses">
         <ion-label class="ion-text-wrap">
-          {{getAddressText(address)}}
+          {{getAddressText(address)}} 
         </ion-label>
         <ion-radio slot="start" [value]="address._id"
           [disabled]="deliveryModel.deliveryPlaceType === deliveryPlaceTypeEnum.restaurant"></ion-radio>

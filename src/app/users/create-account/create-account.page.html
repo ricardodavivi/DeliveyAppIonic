@@ -78,11 +78,11 @@
 
       <ion-item>
         <ion-label position="stacked">Logradouro</ion-label>
-        <ion-input type="text" [(ngModel)]="user.street" name="stret" #stret="ngModel" required></ion-input>
+        <ion-input type="text" [(ngModel)]="user.street" name="street" #street="ngModel" required></ion-input>
       </ion-item>
-      <ion-item lines="none" *ngIf="stret.invalid && (stret.dirty || stret.touched)">
+      <ion-item lines="none" *ngIf="street.invalid && (street.dirty || street.touched)">
         <ion-label color="danger">
-          <p *ngIf="stret.errors.required">{{validationText.required}}</p>
+          <p *ngIf="street.errors.required">{{validationText.required}}</p>
         </ion-label>
       </ion-item>
 
