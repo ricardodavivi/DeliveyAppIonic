@@ -68,6 +68,11 @@ const routes: Routes = [
           .then(m => m.RestaurantInfoPageModule)
       },
       {
+        path: 'information',
+        loadChildren: () => import('../information/information.module')
+          .then(m => m.InformationPageModule)
+      },
+      {
         path: 'user',
         canActivate: [AuthGuard],
         children: [
