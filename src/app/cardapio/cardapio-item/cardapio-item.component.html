@@ -1,6 +1,6 @@
 <ion-item *ngIf="product !== null">
-  <ion-thumbnail slot="start">
-    <ion-img *ngIf="product.photoUrl" [src]="product.photoUrl"></ion-img>
+  <ion-thumbnail slot="start" class="thumb">
+    <ion-img *ngIf="product.photoUrl" [src]="product.photoUrl" ></ion-img>
   </ion-thumbnail>
 
   <ion-label>
@@ -11,4 +11,4 @@
       <p>{{product.price | currency:'BRL'}}</p>
     </ion-text>
   </ion-label>
-</ion-item>
+</ion-item> 
