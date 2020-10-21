@@ -109,8 +109,8 @@ export class ShoppingCartService {
         }
       } else {
         // se não entrega para esse endereço, exibir uma msg
-        this.warningResult.next('Não entregamos para o endereço selecionado.');
-        this.stopCheckout.next(true);
+        //this.warningResult.next('Não entregamos para o endereço selecionado.');
+        //this.stopCheckout.next(true);
       }
     }
   }
